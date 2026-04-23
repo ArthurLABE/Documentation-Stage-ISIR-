@@ -35,3 +35,4 @@ By fine-tuning our model on this dataset, we identified some problems that have 
 To correct these problems, we reduced the number of actions performed by each chunk and added 20 additional episodes to the dataset, each presenting a new diversity situation.
 
 Our results are presented in the video below.
+**video coming soon**
