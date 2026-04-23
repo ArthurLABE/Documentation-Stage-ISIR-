@@ -17,5 +17,6 @@ By fine-tuning our model on this dataset, we identified some problems that have 
     
   - Lack of diversity : With only 20 episodes, we were unable to observe a sufficient variety of actions, such as the robot reversing after getting too close to the box to grab it. It is essential to incorporate maximum diversity into the dataset, particularly in terms of starting positions, box positions, and the external environment, to make the model as versatile as possible.
 
+To correct these problems, we reduced the number of actions performed by each chunk and added 20 additional episodes to the dataset, each presenting a new diversity situation.
 
-
+Our results are presented in the video below.
