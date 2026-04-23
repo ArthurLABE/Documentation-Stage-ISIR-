@@ -9,6 +9,11 @@ In this part, we describe how we managed to teleoperate the follower arm by movi
 We followed the following wiki that describe the method step by step : https://wiki.seeedstudio.com/lerobot_so100m/
 In term of steps : setup motors, calibrate them, teleoperate.
 
+
+[![LeKiwi robot teleoperation](https://img.youtube.com/vi/ap5GYRXbl0Q/maxresdefault.jpg)](https://www.youtube.com/watch?v=ap5GYRXbl0Q)
+
+
+
 # II- Key points when recording the dataset
 By following the same wiki, we manage to record a dataset of 20 episodes. 
 By fine-tuning our model on this dataset, we identified some problems that have affected operation : 
