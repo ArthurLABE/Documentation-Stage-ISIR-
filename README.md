@@ -10,16 +10,18 @@ We followed the following wiki that describe the method step by step : https://w
 In term of steps : setup motors, calibrate them, teleoperate.
 
 
-[![LeKiwi robot teleoperation](https://img.youtube.com/vi/ap5GYRXbl0Q/maxresdefault.jpg)](https://www.youtube.com/watch?v=ap5GYRXbl0Q)
 
+Our result is presented in the video below : 
 
-[![LeKiwi robot teleoperation](<img width="1920" height="1080" alt="img_teleop" src="https://github.com/user-attachments/assets/bf5f213b-5d4d-45b5-a273-c688f6b14d5b" />
-)](https://www.youtube.com/watch?v=ap5GYRXbl0Q)
-
+<a href="https://www.youtube.com/watch?v=ap5GYRXbl0Q">
+  <img src="https://github.com/user-attachments/assets/af0cd146-ca54-4c67-b372-40b773c99d2c" alt="LeKiwi robot teleoperation" width="50%" />
+</a>
 
 
 
 *🎥 Clic on the image to see the video on Ytb, use `Ctrl + Clic` to open it in a new tab*
+
+
 
 
 # II- Key points when recording the dataset
