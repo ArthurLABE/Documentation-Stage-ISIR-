@@ -35,4 +35,10 @@ By fine-tuning our model on this dataset, we identified some problems that have 
 To correct these problems, we reduced the number of actions performed by each chunk and added 20 additional episodes to the dataset, each presenting a new diversity situation.
 
 Our results are presented in the video below.
-**video coming soon**
+
+<a href="https://www.youtube.com/watch?v=l4Q_QMrzkYw">
+  <img src="https://github.com/user-attachments/assets/6a3c722b-b26b-4954-ada0-252009dd7566" alt="LeKiwi robot learning progress" width="50%" />
+</a>
+
+*🎥 Clic on the image to see the video on Ytb, use `Ctrl + Clic` to open it in a new tab*
+
