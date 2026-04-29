@@ -1,10 +1,15 @@
-# Documentation Stage ISIR on LeKiwi Robot
+# Documentation Stage ISIR on LeKiwi Robot  
+
+<br>
 Description of our progression to train the robot LeKiwi. The goal is to make it take a box and place it in another location all by itself after the fine-tuning based on our own dataset.
 We used https://wiki.seeedstudio.com/lerobot_lekiwi/ to help us, our page is just a complementary description of this one.
-          <img width="667" height="517" alt="image" src="https://github.com/user-attachments/assets/6728a1d9-207e-48da-9134-d22c5fac0231" />
+          <img width="667" height="517" alt="image" src="https://github.com/user-attachments/assets/6728a1d9-207e-48da-9134-d22c5fac0231" />  
 
+<br>  
+<br>  
+<br>
 
-# I- LeRobot Teleoperation 
+## I- LeRobot Teleoperation 
 In this part, we describe how we managed to teleoperate the follower arm by moving the leader arm.
 We followed the following wiki that describe the method step by step : https://wiki.seeedstudio.com/lerobot_so100m/
 In term of steps : setup motors, calibrate them, teleoperate.
@@ -22,9 +27,9 @@ Our result is presented in the video below :
 *🎥 Clic on the image to see the video on Ytb, use `Ctrl + Clic` to open it in a new tab*
 
 
+<br>
 
-
-# II- Key points when recording the dataset
+## II- Key points when recording the dataset
 By following the same wiki, we manage to record a dataset of 20 episodes. 
 By fine-tuning our model on this dataset, we identified some problems that have affected operation : 
 
@@ -41,4 +46,16 @@ Our results are presented in the video below.
 </a>
 
 *🎥 Clic on the image to see the video on Ytb, use `Ctrl + Clic` to open it in a new tab*
+
+<br>
+
+## III- Upgrades and comparison of training policies
+To reduce camera latency, we installed a **router**. The robot's Raspberry Pi can now communicate with our computer via Wi-Fi almost instantly.
+We created a new dataset of **50 episodes** with this new configuration and trained three different policies for comparison. 
+
+In the following video, we share our comparison of **SmolVLA**, **ACT** and **PI05**.
+
+
+> [!NOTE]
+> Currently training, video coming soon
 
